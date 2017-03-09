@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/icotaller">
+
+    <TextView
+        android:text="Gestion REST Concesionarios"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3"
+        android:layout_marginTop="68dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:textAlignment="center"
+        android:textSize="24dp"/>
+
+    <Button
+        android:text="Vehiculos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="30dp"
+        android:id="@+id/btnVehi" />
+
+    <Button
+        android:text="Concesionarios"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnConces"
+        android:layout_marginBottom="11dp"
+        android:layout_above="@+id/btnVehi"
+        android:layout_alignParentStart="true" />
+</RelativeLayout>
